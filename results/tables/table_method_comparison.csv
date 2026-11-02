@@ -1,0 +1,9 @@
+Method,MSE,PSNR (dB),SSIM,PSNR damaged area,PSNR intact area
+Damaged image (input),1589.63,16.12,0.565,6.85,26.06
+Traditional inpainting - Telea,330.27,22.94,0.612,16.78,25.0
+Traditional inpainting - Navier-Stokes,337.83,22.84,0.611,16.52,25.04
+Wavelet denoising only (no inpainting),1436.84,16.56,0.793,6.98,32.13
+Wavelet-domain iterative inpainting,284.93,23.58,0.817,15.16,29.08
+Wavelet + Inpainting (proposed),218.34,24.74,0.83,16.83,29.0
+Proposed + seam smoothing (final),217.0,24.77,0.835,16.83,29.08
+Proposed + display enhancement,491.08,21.22,0.76,16.05,22.62

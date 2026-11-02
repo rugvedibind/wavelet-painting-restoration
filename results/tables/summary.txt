@@ -1,0 +1,18 @@
+
+REPORT-READY SUMMARY  (test_painting.png, 720x768, seed 42)
+-------------------------------------------------------------------
+Damage: 10.8% of the painting missing/torn/scratched + Gaussian noise sigma = 0.05
+Detection: 54 damaged regions | precision 0.811 | recall 1.000 | IoU 0.811 | Dice 0.895
+           false alarm on the undamaged original: 0.88% of pixels
+Noise: true sigma 0.050, MAD estimate 0.0498; error std on intact area 0.0498 -> 0.0232 after wavelet thresholding
+
+                         MSE      PSNR(dB)   SSIM
+Damaged input         1589.63     16.12   0.565
+Traditional (Telea)    330.27     22.94   0.612
+Wavelet + Inpainting   217.00     24.77   0.835
+
+Gain over damaged input : +8.65 dB PSNR, SSIM +0.270, MSE -86.3%
+Gain over Telea alone   : +1.83 dB PSNR, SSIM +0.223, MSE -34.3%
+Inside the damaged area : Telea 16.78 dB vs proposed 16.83 dB
+On the intact area      : Telea 25.00 dB vs proposed 29.08 dB
+Best wavelet setting (E1): coif2, level 4 -> 24.79 dB

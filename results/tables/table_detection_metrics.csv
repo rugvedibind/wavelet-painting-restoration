@@ -1,0 +1,9 @@
+Metric,Value
+Damaged area - ground truth (%),10.76
+Damaged area - detected (%),13.264
+Damaged regions found,54.0
+Precision,0.811
+Recall,1.0
+IoU,0.811
+Dice,0.895
+False alarm on undamaged original (%),0.882

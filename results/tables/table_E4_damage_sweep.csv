@@ -1,0 +1,16 @@
+Hole coverage,Method,PSNR (dB),SSIM
+0.05,Damaged input,18.62,0.592
+0.05,Telea inpainting,23.58,0.617
+0.05,Proposed,26.01,0.857
+0.1,Damaged input,16.12,0.565
+0.1,Telea inpainting,22.94,0.612
+0.1,Proposed,24.77,0.835
+0.15,Damaged input,14.53,0.539
+0.15,Telea inpainting,22.31,0.602
+0.15,Proposed,23.76,0.81
+0.2,Damaged input,13.31,0.51
+0.2,Telea inpainting,21.4,0.589
+0.2,Proposed,22.48,0.782
+0.25,Damaged input,12.34,0.48
+0.25,Telea inpainting,20.93,0.575
+0.25,Proposed,21.81,0.754

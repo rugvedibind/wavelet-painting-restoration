@@ -1,0 +1,7 @@
+Setting,PSNR (dB),SSIM
+soft / BayesShrink,24.77,0.835
+soft / VisuShrink,23.01,0.719
+hard / BayesShrink,24.06,0.733
+hard / VisuShrink,23.95,0.785
+soft / BayesShrink + detail gain 1.1,24.54,0.824
+soft / BayesShrink + detail gain 1.2,24.18,0.809
